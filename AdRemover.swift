@@ -13,7 +13,7 @@ var hideAds: Bool = false
 class AdRemover: NSObject, SKProductsRequestDelegate, SKPaymentTransactionObserver {
     private var fetched: Bool = false
     private var product: SKProduct?
-    private var productID = "colorWheelRemoveAds"
+    private var productID = "colorBounceRemoveAds"
     private var readyForIAP = false
     
     func initialize() {
